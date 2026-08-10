@@ -10,6 +10,16 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/thirumalai1412/Github-Copilot-Exercise/issues/1)
 
+## Running the test suite
+
+This repository uses `pytest` for backend API regression coverage.
+
+```bash
+pytest
+```
+
+The FastAPI app is defined in [src/app.py](src/app.py), and the API contract is exercised through the backend tests under the tests directory.
+
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
